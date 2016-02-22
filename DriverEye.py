@@ -10,8 +10,8 @@ DARK = (64, 64, 64)
 
 
 pygame.init()
-SCREENSIZE = (800, 460)
-SCREEN = pygame.display.set_mode(SCREENSIZE)
+SCREENSIZE = (800, 480)
+SCREEN = pygame.display.set_mode(SCREENSIZE, pygame.FULLSCREEN)
 pygame.display.set_caption("DriverEye - Used Car 360 Experience Online Marketing Platform")
 
 font = pygame.font.Font("fnt/Lato-Bold.ttf", 20)
